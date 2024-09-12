@@ -1,0 +1,146 @@
+html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>American Way of Life</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #003366;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            margin: 0.5rem 0;
+            font-size: 1.2rem;
+        }
+        nav {
+            background-color: #004080;
+            text-align: center;
+            padding: 0.5rem 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            display: inline-block;
+        }
+        nav a:hover {
+            background-color: #003366;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 2rem auto;
+        }
+        .section {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .section h2 {
+            font-size: 2rem;
+            color: #003366;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .gallery img {
+            width: calc(33.333% - 1rem);
+            border-radius: 8px;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #003366;
+            color: #fff;
+            margin-top: 2rem;
+        }
+        @media (max-width: 768px) {
+            .gallery img {
+                width: calc(50% - 1rem);
+            }
+        }
+        @media (max-width: 480px) {
+            .gallery img {
+                width: calc(100% - 1rem);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>American Way of Life</h1>
+        <p>Projeto da turma de História, 9º ano - Escola XYZ</p>
+        <p>Objetivo: Explorar o impacto cultural e social do "American Way of Life" ao redor do mundo.</p>
+    </header>
+    <nav>
+        <a href="#introducao">Introdução</a>
+        <a href="#historia">História</a>
+        <a href="#caracteristicas">Características</a>
+        <a href="#impacto">Impacto na Cultura</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#sobre">Sobre a Turma</a>
+        <a href="#conclusao">Conclusão</a>
+    </nav>
+    <div class="container">
+        <section id="introducao" class="section">
+            <h2>Introdução</h2>
+            <p>O "American Way of Life" é um conceito que se refere ao estilo de vida associado aos Estados Unidos da América. Representa valores como liberdade, individualismo, e busca pela felicidade.</p>
+        </section>
+        <section id="historia" class="section">
+            <h2>História</h2>
+            <p>A expressão "American Way of Life" surgiu no século XX, refletindo a ascensão dos EUA como uma superpotência e a difusão de sua cultura pelo mundo.</p>
+        </section>
+        <section id="caracteristicas" class="section">
+            <h2>Características Principais</h2>
+            <p>Entre as características destacam-se o consumo em massa, a propriedade privada, o capitalismo, a liberdade de expressão e a mobilidade social.</p>
+        </section>
+        <section id="impacto" class="section">
+            <h2>Impacto na Cultura</h2>
+            <p>A cultura norte-americana teve um grande impacto mundial, influenciando áreas como cinema, música, moda, e comportamentos sociais.</p>
+        </section>
+        <section id="galeria" class="section">
+            <h2>Galeria</h2>
+            <div class="gallery">
+                <img src="imagem1.jpg" alt="Descrição da imagem 1">
+                <img src="imagem2.jpg" alt="Descrição da imagem 2">
+                <img src="imagem3.jpg" alt="Descrição da imagem 3">
+            </div>
+        </section>
+        <section id="sobre" class="section">
+            <h2>Sobre a Turma</h2>
+            <p>Somos alunos do 9º ano da Escola XYZ, e este projeto é parte do nosso estudo sobre influências culturais globais. Nosso objetivo é entender e apresentar como o estilo de vida americano impacta diferentes aspectos da sociedade mundial.</p>
+        </section>
+        <section id="conclusao" class="section">
+            <h2>Conclusão</h2>
+            <p>O "American Way of Life" moldou não apenas a sociedade americana, mas também teve repercussões globais, sendo um tema relevante para o entendimento das dinâmicas culturais e econômicas contemporâneas.</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 - Feira de Ciências</p>
+    </footer>
+</body>
+</html>
